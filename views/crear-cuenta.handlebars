@@ -1,0 +1,28 @@
+<main class="contenedor">
+    <form action="/crear-cuenta" method="POST" class="default-form" novalidate>
+        <div class="campo">
+            <label>Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Tu nombre">
+        </div>
+        <div class="campo">
+            <label>Email</label>
+            <input type="email" name="email" id="email" placeholder="Tu email">
+        </div>
+        <div class="campo">
+            <label>Password</label>
+            <input type="password" name="password" id="password" placeholder="Tu password">
+        </div>
+        <div class="campo">
+            <label>Repetir Password</label>
+            <input type="password" name="repetir-password" id="repetir-password" placeholder="Repetir password">
+        </div>
+        
+        <div class="campo">
+            <a href="/iniciar-sesion">Volver a iniciar sesión</a>
+        </div>
+
+        <div class="campo">
+            <input type="submit" value="Crear Cuenta" class="btn btn-azul"/>
+        </div>
+    </form>
+</main>
